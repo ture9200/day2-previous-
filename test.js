@@ -23,13 +23,12 @@ let gap=area1-area2
 //소수점 둘째자리까지
 gap=gap.toFixed(2)
 
-console.log ("이 도형의 넓이는"+ gap)
-//console.log( '이 도형의 넓이는 ${gap} 입니다');
+//console.log ("이 도형의 넓이는"+ gap)
+console.log( `이 도형의 넓이는 ${gap} 입니다`)
 
 // if (gap<0) {
 //     gap*-1
 // }
-
 // const num= Math.pow(2,4)
 // console.log(num)
 

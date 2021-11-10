@@ -8,6 +8,7 @@ for(let i=1; i<=45;i++){
 }
     console.log(arr)
 
+//
 for(let i=0; i<6; i++){
     const idx=parseInt(Math.random()*arr.length)
     arr.splice(idx,1)
