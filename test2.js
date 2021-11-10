@@ -10,6 +10,7 @@ const readLine= require('readline-sync');
 
 console.log("1피트당 샷시의 가격은 얼마인가요?")
 console.perFeet= parseFloat(readLine.prompt())
+//(readLine.prompt())은 화면에서 입력받으라는 node js 에서 제공하는 명령
 const perFeet=3.5
 
 console.log("가로길이는 얼마인가요? cm")

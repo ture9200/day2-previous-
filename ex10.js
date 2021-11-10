@@ -8,15 +8,21 @@ const pointArr=[
 
 const target={xpos:2, ypos:8}
 
-for(const pointArrElement of pointArr) {
-    console.log(pointArrElement)
+pointArr.sort((a:{...},b:{...} => {
+    const distanceA=Math.sqrt(Math.pow(pointArrElement. xpos-target.xpos, 2)+
+//     Math.pow(pointArrElement.ypos-target.ypos,2))
 
-    //target과 pointArrElement 의 거리계산
-    const distance= Math.sqrt(Math.pow(pointArrElement. xpos-target.xpos, 2)+
-    Math.pow(pointArrElement.ypos-target.ypos,2))
+})
 
-    console.log(distance)
-}
+// for(const pointArrElement of pointArr) {
+//     console.log(pointArrElement)
+//
+//     //target과 pointArrElement 의 거리계산
+//     const distance= Math.sqrt(Math.pow(pointArrElement. xpos-target.xpos, 2)+
+//     Math.pow(pointArrElement.ypos-target.ypos,2))
+//
+//     console.log(distance)
+// }
 
     // for (let i=0; i<pointArr; i++){
     //     const pointArrElement=pointArr[i]
