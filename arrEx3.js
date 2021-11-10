@@ -7,7 +7,7 @@ let sum=0
 for(let i=0; i<arr.length; i++) {
     sum+=arr[i]
     console.log('SUM:' +sum )
-    //console.log('SUM:${sum}')
+    //console.log(`SUM:${sum}`)
 }
     let avg=(sum/ arr.length).toFixed(3)
     console.log ('AVG:' +avg )
@@ -23,7 +23,7 @@ for(let i=0; i<arr.length; i++) {
     }
 }
  console.log('min:'+min )
-// console.log('min:${min}')
+// console.log(`min:${min}`)
 
 //최고
 let max=arr[0]
