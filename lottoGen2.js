@@ -8,9 +8,8 @@ for(let i=1; i<=45;i++){
 }
     console.log(arr)
 
-//
+// 왜 값이 뒤에 빠지는지 모르겠어요 ㅠㅠ
 for(let i=0; i<6; i++){
     const idx=parseInt(Math.random()*arr.length)
-    arr.splice(idx,1)
-   console.log(arr)
+   console.log(arr.splice(idx,1))
 }
