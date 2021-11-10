@@ -14,7 +14,7 @@
 
   //반복된 숫자가 나오는지 검사
   const index = arr.indexOf(num)
- //console.log('NUM:${num} INDEX:${index}') //인식이 안되요ㅠㅠ ${}
+ //console.log('NUM:${num} INDEX:${index}')
 
 
 
@@ -25,7 +25,7 @@
    const newLength = arr.push(num)
 
    if(newLength===6){
-   //숫자를 뽑았는데 여섯개 되면 break을 한다는 말??
+   //배열에 담겨져 있는 숫자개수가 여섯개 되면 break
    break
   }
 
