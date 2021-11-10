@@ -1,4 +1,4 @@
-//for문 , for루프
+//for문 , for루프라고 부름
 for(let i=0; i<10; i++) {
     // i++대신  i= i+1, i<10 (검사식 생략가능), let i =0 을 앞에 빼도 됨
     //for(;;) 로 가능 = while(true)
@@ -18,4 +18,6 @@ for(let i=0; i<10; i++) {
 //한번의 실행을 보증싶을때
 do{
 
-}while(i<20)
+}while(i<20){
+
+}
