@@ -18,17 +18,18 @@ const area2= Math.pow(r2,2)* Math.PI
 let gap=area1-area2
 
 //if 삼항연산자 (r1>r2 클수 있기때문에)
-//gap=gap<0? gap* -1 : gap
+//if(gap<0){
+// gap=gap*-1
+// }
+gap=gap<0? gap* -1 : gap
 
 //소수점 둘째자리까지
 gap=gap.toFixed(2)
 
-//console.log ("이 도형의 넓이는"+ gap)
+//console.log ("이 도형의 넓이는"+ gap+"입니다.")
 console.log( `이 도형의 넓이는 ${gap} 입니다`)
 
-// if (gap<0) {
-//     gap*-1
-// }
-// const num= Math.pow(2,4)
-// console.log(num)
+// 지수 2의 4승
+const num= Math.pow(3,4)
+console.log(num)
 
