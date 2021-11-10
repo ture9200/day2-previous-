@@ -28,6 +28,6 @@ const totalFeet= Math.ceil(totalLength/30.48)
  const totalPay= totalFeet * perFeet
 console.log (totalPay+ "달러입니다.")
 //console.log('총 ${totalPay}달러입니다')
-// Math.round() 반올림3.5
+// Math.round() 반올림
 // Math.ceil() 올림
 // Math.floor() 내림
