@@ -11,6 +11,7 @@ const readLine= require('readline-sync');
 console.log("1피트당 샷시의 가격은 얼마인가요?")
 console.perFeet= parseFloat(readLine.prompt())
 const perFeet=3.5
+
 console.log("가로길이는 얼마인가요? cm")
 const width= parseInt(readLine.prompt())
 
@@ -24,8 +25,9 @@ const totalLength= (width*2)+(height *2)
 const totalFeet= Math.ceil(totalLength/30.48)
 
 //가격 계산
-const total= totalFeet * perFeet
-console.log ("총 ${total} 달러입니다.")
+ const totalPay= totalFeet * perFeet
+console.log (totalPay+ "달러입니다.")
+//console.log('총 ${totalPay}달러입니다')
 // Math.round() 반올림3.5
 // Math.ceil() 올림
 // Math.floor() 내림

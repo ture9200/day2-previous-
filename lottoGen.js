@@ -1,26 +1,31 @@
  const arr=[]
  //const temp=[1,2,3]
+
+ // 위의 []에 숫자가 추가 된다.
  arr.push(1)
- arr.push(2)
+ arr.push(2,3)
  console.log(arr)
 
  while(true) {  //항상 true 무한루프
-  ///숫자를 생성 1-45 사이의 숫자
-  const num= parseInt(Math.random()*45)+1
+  //숫자를 생성 1-45 사이의 숫자 , 여기서 parseInt 는 소수를 정수로
+  const num = parseInt(Math.random() * 45) + 1
   console.log(num)
-  //const num = 10
 
-  //검사
+
+  //반복된 숫자가 나오는지 검사
   const index = arr.indexOf(num)
-  //console.log('NUM:${num} INDEX:${index}')
+ //console.log('NUM:${num} INDEX:${index}') //인식이 안되요ㅠㅠ ${}
 
 
-  if (index >= 0) {
-   continue
-  }
-  const newLength = arr.push(num)
 
-  if(newLength===6){
+   if (index >= 0) {
+    //차례가 0보다 크면 계속 돌아가는데
+    continue
+   }
+   const newLength = arr.push(num)
+
+   if(newLength===6){
+   //숫자를 뽑았는데 여섯개 되면 break을 한다는 말??
    break
   }
 
